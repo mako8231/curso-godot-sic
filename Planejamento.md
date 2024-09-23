@@ -12,6 +12,9 @@
     - Métodos;
 
 - **<h3>Projeto: jogo de plataforma no estilo Megaman</h3>** 
-    - Introdução do Node AnimatedSprite2D;
-    - blablabla
+    - Introdução do Node `AnimatedSprite2D` e animação do spritesheet;
+    - Introdução do uso do node `CharacterBody2D`;
+        - Vetor `velocity` e como ele é aplicado no vetor de posição do corpo;
+        - Controlar o personagem dado um chão;
+        - Criação de uma classe de estados de máquina;
 
