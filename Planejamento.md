@@ -17,4 +17,5 @@
         - Vetor `velocity` e como ele é aplicado no vetor de posição do corpo;
         - Controlar o personagem dado um chão;
         - Criação de uma classe de estados de máquina;
+        - Controle de animação dentro do código;
 
