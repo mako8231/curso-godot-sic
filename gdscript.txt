@@ -1,2 +1,2 @@
 Basico
-GdScript é uma linguagem criada para desenvolvimento na Godot, sendo a linguagem oficial da engine. Ela foi criada  
+GdScript é uma linguagem criada para desenvolvimento na Godot, sendo a linguagem oficial da engine. Ela foi criada de forma que é muito parecida com python, facilitando a aprendizagem da linguagem para o desenvolvimento de jogos. Mas tambem contendo varios recursos necessarios para criar jogos bem completos.
