@@ -1,0 +1,2 @@
+Basico
+GdScript é uma linguagem criada para desenvolvimento na Godot, sendo a linguagem oficial da engine. Ela foi criada  
