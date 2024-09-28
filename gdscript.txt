@@ -1,3 +1,17 @@
-Basico
-GdScript é uma linguagem criada para desenvolvimento na Godot, sendo a linguagem oficial da engine. Ela foi criada de forma que é muito parecida com python, 
-facilitando a aprendizagem da linguagem para o desenvolvimento de jogos. Mas tambem contendo varios recursos necessarios para criar jogos bem completos.
+///oque godot
+  ///historia godot
+///Basico gdscript
+oque é gdscipt
+  GdScript é uma linguagem criada para desenvolvimento na Godot, sendo a linguagem oficial da engine. Ela foi criada de forma que é muito parecida com python, 
+  facilitando a aprendizagem da linguagem para o desenvolvimento de jogos. Mas tambem contendo varios recursos necessarios para criar jogos bem completos.
+variaveis em gdscript
+  Variáveis Dinâmicas:
+    var score = 0
+    var player_name = "Jogador"
+  Variáveis com Tipo Declarado:
+    var health: int = 100
+    var is_alive: bool = true
+  Tipos de Variáveis:
+    Variáveis Locais: Declaradas dentro de funções, só são acessíveis ali.
+    Variáveis de Instância: Usadas em toda a classe, começam com var fora de funções.
+    Variáveis Estáticas: Declaradas com static var, são compartilhadas entre todas as instâncias da classe.
