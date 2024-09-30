@@ -15,3 +15,28 @@ variaveis em gdscript
     Variáveis Locais: Declaradas dentro de funções, só são acessíveis ali.
     Variáveis de Instância: Usadas em toda a classe, começam com var fora de funções.
     Variáveis Estáticas: Declaradas com static var, são compartilhadas entre todas as instâncias da classe.
+Operadores:
+  Aritimeticos:
+    soma: +
+    subtracao: -
+    multiplicacao: *
+    divisao: /      
+    resto: % , ou fmod() para variaveis float.
+  Comparação:
+    Igual: ==
+    Diferente: !=
+    Maior: >
+    Menor: <
+    Maior ou igual: >=
+    Menor ou igual: <=
+  Logico:
+    e: &&
+    ou:|| 
+    não:!
+Condicionais:
+  if condição1:(se).
+    # Código se condição1 for verdadeira
+  elif condição2:(se não se).
+    # Código se condição2 for verdadeira
+  else:(se não).
+    # Código se nenhuma das condições anteriores for verdadeira
