@@ -22,6 +22,21 @@ Operadores:
     multiplicacao: *
     divisao: /      
     resto: % , ou fmod() para variaveis float.
+  Em python:
+    Adição: +
+    Exemplo: a + b
+    Subtração: -
+    Exemplo: a - b
+    Multiplicação: *
+    Exemplo: a * b
+    Divisão: /
+    Exemplo: a / b (retorna um float)
+    Divisão inteira: //
+    Exemplo: a // b (retorna um inteiro)
+    Módulo: %
+    Exemplo: a % b (retorna o resto da divisão)
+    Exponenciação: **
+    Exemplo: a ** b (a elevado a b)
   Comparação:
     Igual: ==
     Diferente: !=
