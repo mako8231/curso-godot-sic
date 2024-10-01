@@ -11,7 +11,7 @@
     - Estruturas de desvio condicionais, como `if/else`, `match:`;
     - Métodos;
 
-- **<h3>Projeto: jogo de plataforma no estilo Megaman</h3>** 
+- **<h3>Projeto: jogo de plataforma no estilo platformer</h3>** 
     - Introdução do Node `AnimatedSprite2D` e animação do spritesheet;
     - Introdução do uso do node `CharacterBody2D`;
         - Vetor `velocity` e como ele é aplicado no vetor de posição do corpo;
