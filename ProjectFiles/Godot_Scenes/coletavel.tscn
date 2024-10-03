@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dipvd88bvjrtu"]
+
+[ext_resource type="Script" path="res://Godot_Scripts/coletavel.gd" id="1_idau1"]
+[ext_resource type="Texture2D" uid="uid://dy2k3ytibtr2n" path="res://icon.svg" id="1_pexp6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u4iah"]
+size = Vector2(129, 123)
+
+[node name="Coletavel" type="Area2D"]
+scale = Vector2(0.4, 0.4)
+script = ExtResource("1_idau1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_pexp6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 1.5)
+shape = SubResource("RectangleShape2D_u4iah")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

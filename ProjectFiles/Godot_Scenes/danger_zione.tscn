@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cu4flnnow5vq"]
+
+[ext_resource type="Script" path="res://Godot_Scripts/danger_zione.gd" id="1_3w53e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_odkyl"]
+size = Vector2(5994, 381)
+
+[node name="DangerZione" type="Area2D"]
+script = ExtResource("1_3w53e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-954, 180.5)
+shape = SubResource("RectangleShape2D_odkyl")
+debug_color = Color(0.87451, 0, 0.137255, 0.419608)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

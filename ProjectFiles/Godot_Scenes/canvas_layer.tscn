@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0mt0rnpymqfr"]
+
+[ext_resource type="Texture2D" uid="uid://dy2k3ytibtr2n" path="res://icon.svg" id="1_120ca"]
+[ext_resource type="Script" path="res://Godot_Scripts/canvas_layer.gd" id="1_oxd1l"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_oxd1l")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(58, 55)
+scale = Vector2(0.726562, 0.789062)
+texture = ExtResource("1_120ca")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 118.0
+offset_top = 10.0
+offset_right = 476.0
+offset_bottom = 103.0
+theme_override_font_sizes/font_size = 50
+text = " x0"
